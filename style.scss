@@ -1,0 +1,48 @@
+.boxArea {
+    width: 450px;
+    margin-top: 32px;
+    position: relative;
+    
+
+    .box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    .box1 {
+        background-color: #1d41b8;
+        top: 0;
+        left: 0;
+    }
+
+    .box2 {
+        background-color: #15c03a;
+        top: 0;
+        left: 175px;
+    }
+
+    .box3 {
+        background-color: #ee2292;
+        top: 0;
+        right: 0;
+    }
+
+    .box1Move {
+        top: 250px;
+        left: 350px;
+        background-color: #0d9714;
+    }
+    
+    .box2Move {
+        top: 500px;
+        background-color: #a51799;
+    }
+
+    .box3Move {
+        top: 250px;
+        right: 350px;
+        background-color: #28a1d1;
+    }
+}
